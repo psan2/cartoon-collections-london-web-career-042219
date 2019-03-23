@@ -13,4 +13,5 @@ end
 def find_the_cheese(menu)
   cheese_types = ["cheddar", "gouda", "camembert"]
   menu.select! {|menu_item| cheese_types.include?(menu_item)}
+  menu.first
 end
