@@ -7,10 +7,10 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.any? {|word| word.length > 4}  
+  planeteer_calls.any? {|word| word.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(menu)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  menu.map!{|x| cheese_types.include?(x) return x : nil
 end
