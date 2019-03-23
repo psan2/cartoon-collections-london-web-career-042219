@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(menu)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  menu.map!{|x| cheese_types.include?(x) x : nil}
+  is_cheese << menu.map{|x| cheese_types.include?(x) x : nil}
 end
