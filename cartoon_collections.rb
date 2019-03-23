@@ -2,8 +2,8 @@ def roll_call_dwarves(roster)
   roster.each.with_index(1) {|dwarf,line_place| puts "#{line_place}. #{dwarf}"}
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect{|x| x + "!"}
 end
 
 def long_planeteer_calls# code an argument here
